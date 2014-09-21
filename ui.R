@@ -39,8 +39,10 @@ shinyUI(navbarPage("My ShinyApp",
                                                          c ("Scatter"="p","Histogram"="h")
                                             ),
                                             
-                                            submitButton('Submit')
-                                   
+                                            submitButton('Submit'),
+                                            br(),
+                                            strong("Remark"),
+                                            p("We observe a fairly well correlation between weight and height.")
                                             ),
                                     
                                     mainPanel(
